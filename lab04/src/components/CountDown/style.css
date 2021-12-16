@@ -1,0 +1,22 @@
+.count-down {
+  margin: 10px;
+  text-align: center;
+}
+
+.count-down h1 {
+  color: #cc3366;
+}
+
+.count-down ul {
+  list-style: none;
+}
+
+.count-down ul li {
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.full { color: #3366cc; }
+
+.second { color: #33cc66; }
