@@ -1,0 +1,4 @@
+.left, .right { height: 150px; }
+.center { height: 200px; }
+
+.left, .right, .center { margin: 2px; }
