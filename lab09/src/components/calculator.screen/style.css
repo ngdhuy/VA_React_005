@@ -1,0 +1,7 @@
+.screen {
+  font-size: 2rem;
+  text-align: right;
+  margin: 5px;
+  border: 1px solid #cc3366;
+  width: 300px;
+}
