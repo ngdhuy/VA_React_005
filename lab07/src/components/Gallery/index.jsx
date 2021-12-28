@@ -9,7 +9,7 @@ export default function Gallery(props) {
   console.log(list_1);
   console.log(list_2);
   return(
-    <div class="container">
+    <div className="container">
       <div>
         { list_1.map(item => <Image index={item} />) }
       </div>

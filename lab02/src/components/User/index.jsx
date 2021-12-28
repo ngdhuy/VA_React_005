@@ -5,14 +5,14 @@ import PropTypes from 'prop-types';
 class User extends Component {
   render() {
     return (
-      <div class='user'>
-        <div class='row'>
+      <div className='user'>
+        <div className='row'>
           <label>First name: </label>
-          <span class='value'>{this.props.firstName}</span>
+          <span className='value'>{this.props.firstName}</span>
         </div>
-        <div class='row'>
+        <div className='row'>
           <label>Last name: </label>
-          <span class='value'>{this.props.lastName}</span>
+          <span className='value'>{this.props.lastName}</span>
         </div>
       </div>
     );

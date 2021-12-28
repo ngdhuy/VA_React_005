@@ -35,7 +35,7 @@ export default class Count extends Component {
         <h1>Count down</h1>
         <ul>
           <li>
-            <span class="full">{this.state.date.toLocaleTimeString()}</span>
+            <span className="full">{this.state.date.toLocaleTimeString()}</span>
           </li>
           <li>
             <span className="second">{(this.state.second != 0) ? this.state.second : "Time out"}</span>

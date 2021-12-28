@@ -11,9 +11,9 @@ export default class Button extends Component {
   }
 
   render() {
-    const className = this.props.style === 'zero' ? this.props.style : '';
+    const className = this.props.className === 'zero' ? this.props.className : '';
     return(
-      <button type="button" class={className} onClick={this.handle_click} >
+      <button type="button" className={className} onClick={this.handle_click} >
         {this.props.value}
       </button>
     );
